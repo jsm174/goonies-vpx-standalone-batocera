@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>The Goonies Never Say Die Visual Pinball Machine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <a href="#" class="image avatar"><img src="images/avatar.png" alt="" /></a>
+        <h1>
+          <strong>The Goonies Never Say Die&nbsp;<br />Custom Visual Pinball Machine</strong>
+        </h1>
+        <h1>
+          <strong
+            >A project based on <br /><span style="color: orange">
+              <a href="https://github.com/vpinball/vpinball/tree/standalone/">Visual Pinball Standalone</a></span
+            >
+            and
+            <span style="color: orange"
+              ><a href="https://github.com/batocera-linux/batocera.linux">Batocera</a></span
+            ></strong
+          >
+        </h1>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+      <!-- One -->
+      <section id="one">
+        <header class="major">
+          <h2>About<br /></h2>
+        </header>
+        <p>
+          This is a project that I started back in 2010 after reading an article in Maximum PC about Visual Pinball. It
+          only took 13 years to make some progress. Better late than never!
+        </p>
+        <h2>Specs</h2>
+        <ul>
+          <li>Demolition Man Cabinet</li>
+          <li>46" Sharp Aquos LC46D65U LCD TV</li>
+          <li>30" Philips 30PF9946D LCD TV</li>
+          <li>15" Dynex DX-15L150A11 LCD TV</li>
+          <li>P55_GD65 Motherboard</li>
+          <li>Intel Core i7 CPU 870 @ 2.93GHz</li>
+          <li>16GB Ram</li>
+          <li>NVidia GTX 1060</li>
+          <li><a href="http://mjrnet.org/pinscape/">Pinscape and Pinscape Expansion Board</a></li>
+          <li><a href="https://github.com/batocera-linux/batocera.linux">Batocera 39 Beta</a></li>
+          <li><a href="https://github.com/vpinball/vpinball/tree/standalone">Visual Pinball Standalone</a></li>
+          <li><a href="https://github.com/jsm174/vpxds">VPX Display Server</a></li>
+        </ul>
+      </section>
+
+      <!-- Two -->
+      <section id="one">
+        <header class="major">
+          <h2>History<br /></h2>
+        </header>
+        <h2>2010</h2>
+        <ul>
+          <li>Found a water damaged Demolition Man Cabinet on Craigslist</li>
+          <li>Sourced three televisions</li>
+          <li>Hacked up the cabinet with my brother and installed the TVs and fans</li>
+          <li>Bought some hardware</li>
+          <li>Abandoned project in 2010 (kids, right?)</li>
+        </ul>
+        <h2>2011 - 2019</h2>
+        <ul>
+          <li>"Are you every going to work on that pinball machine?"</li>
+          <li>"You can't start anything new until you finish that pinball machine"</li>
+        </ul>
+        <h2>2020</h2>
+        <ul>
+          <li>
+            Started contributing to <a href="https://github.com/vpdb/vpx-js">vpx-js</a>, "Visual Pinball in the browser"
+          </li>
+          <li>Focused on VBScript to JS transplier</li>
+          <li>Made some really good progress but ultimately too many obstacles to overcome</li>
+        </ul>
+        <ul>
+          <li>
+            Started contributing to <a href="https://github.com/freezy/VisualPinball.Engine">Visual Pinball Engine</a>,
+            "Visual Pinball Engine for Unity"
+          </li>
+          <li>Learned C#, helped on editor tools, Unity Visual Scripting, and cross platform support</li>
+          <li>
+            Helped on the
+            <a href="https://github.com/vpinball/pinmame/tree/master/src/libpinmame">libpinmame</a> library (allows
+            PinMAME integration in any application)
+          </li>
+          <li>
+            Helped on integrating
+            <a href="https://github.com/vpinball/pinmame/tree/master/src/libpinmame">libpinmame</a> into
+            <a href="https://github.com/freezy/VisualPinball.Engine">Visual Pinball Engine</a>
+          </li>
+        </ul>
+        <h2>Late 2021</h2>
+        <ul>
+          <li>Attemped a rewrite of Visual Pinball called VPX++ (Player Plus)</li>
+          <li>Complete failure when trying to port DirectX to OpenGL</li>
+        </ul>
+        <h2>2022</h2>
+        <ul>
+          <li>
+            Discovered <a href="https://sourceforge.net/projects/vpvr">Visual Pinball VR</a>, a fork of Visual Pinball
+            for VR headsets which used OpenGL
+          </li>
+          <li>Started reverse engineering how ancient COM and ATL Microsoft technologies work</li>
+          <li>
+            Discovered Wine's
+            <a href="https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/vbscript?ref_type=heads"
+              >VBScript engine source code</a
+            >
+          </li>
+          <li>Worked on a way to cleanly modify VPVR without re-writing everything</li>
+          <li>VPVR merged back into Visual Pinball</li>
+          <li>
+            Joined the
+            <a href="https://m.facebook.com/p/Scranton-Pinball-League-100083573252625/">Scranton Pinball League</a>
+          </li>
+        </ul>
+        <h2>November 2022</h2>
+        <ul>
+          <li>First working real table on MacOS, "Grand Tour EM"</li>
+          <li>Added support for running on Linux</li>
+          <li>Added support for iOS and OpenGL ES</li>
+          <li>Renamed the work to VPX Standalone</li>
+        </ul>
+        <h2>December 2022</h2>
+        <ul>
+          <li>Implemented <a href="https://github.com/vpinball/pinmame/tree/master/src/libpinmame">libpinmame</a></li>
+          <li>Added support for support for running on Linux</li>
+          <li>Added support for iOS and OpenGL ES</li>
+          <li>Renamed the work to VPX Standalone</li>
+        </ul>
+        <h2>January 2023</h2>
+        <ul>
+          <li>Added support for Raspberry Pi 4 (beyond slow)</li>
+          <li>Added support for tvOS using an XBox controller</li>
+          <li>T2 and AC/DC finally playable</li>
+        </ul>
+        <h2>February 2023</h2>
+        <ul>
+          <li>Started porting FlexDMD to C++</li>
+          <li>Blood Machines finally playable</li>
+        </ul>
+        <h2>March 2023</h2>
+        <ul>
+          <li>Added support for <a href="https://github.com/zesinger/libserum">Serum</a> colorizations</li>
+          <li>Added touch support for Android and iOS</li>
+        </ul>
+        <h2>April 2023</h2>
+        <ul>
+          <li>Added support for <a href="https://github.com/PPUC/ZeDMD">ZeDMD</a> displays</li>
+        </ul>
+        <h2>June 2023</h2>
+        <ul>
+          <li>Implemented FlexDMDs version of UltraDMD</li>
+          <li>Resumed work on the Visual Pinball Cabinet</li>
+        </ul>
+        <h2>August 2023</h2>
+        <ul>
+          <li>Completed porting all of FlexDMD<sup>*</sup></li>
+        </ul>
+        <h2>September 2023</h2>
+        <ul>
+          <li>Helped on Visual Pinball Standalone being integrated in Batocera 38 beta</li>
+          <li>Started porting B2S from VB Net to C++</li>
+        </ul>
+        <h2>October - November 2023</h2>
+        <ul>
+          <li>Finished porting B2S</li>
+          <li>Batocera 38 released with Visual Pinball Standalone built in</li>
+          <li>Installed cabinet artwork based on VPW's "The Goonies Never Say Die Pinball"</li>
+        </ul>
+        <h2>November 2023</h2>
+        <ul>
+          <li>Prepped for the <a href="https://electriccitypinball.com/">Electric City Pinball</a> Show</li>
+        </ul>
+      </section>
+
+      <!-- Two -->
+      <section id="three">
+        <h2>Media</h2>
+        <div class="row">
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/07.jpg" class="image fit thumb"><img src="images/thumbs/07.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/08.jpg" class="image fit thumb"><img src="images/thumbs/08.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/09.jpg" class="image fit thumb"><img src="images/thumbs/09.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <iframe
+              class="image fit thumb"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Iko2nGw0JfU"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <!-- <h3></h3>
+                                <p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <iframe
+              class="image fit thumb"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/3nuRjGC3Lj4"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <!-- <h3></h3>
+                                <p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <iframe
+              class="image fit thumb"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/gWRCF8cdJpo"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <!-- <h3></h3>
+                                <p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <iframe
+              class="image fit thumb"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/xjkgzIVL_QU"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <!-- <h3></h3>
+                                <p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <iframe
+              class="image fit thumb"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/65TeIiGu7pc"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <!-- <h3></h3>
+                                <p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <iframe
+              class="image fit thumb"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/cb_V1YARhvE"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <!-- <h3></h3>
+                                <p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <iframe
+              class="image fit thumb"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/A_8J-Jj13ow"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <!-- <h3></h3>
+                                <p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <iframe
+              class="image fit thumb"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/1wNr0u6CPvY"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <!-- <h3></h3>
+                                <p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/10.jpg" class="image fit thumb"><img src="images/thumbs/10.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/11.jpg" class="image fit thumb"><img src="images/thumbs/11.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/12.jpg" class="image fit thumb"><img src="images/thumbs/12.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/13.jpg" class="image fit thumb"><img src="images/thumbs/13.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/14.jpg" class="image fit thumb"><img src="images/thumbs/14.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/15.jpg" class="image fit thumb"><img src="images/thumbs/15.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/16.jpg" class="image fit thumb"><img src="images/thumbs/16.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/17.jpg" class="image fit thumb"><img src="images/thumbs/17.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/18.jpg" class="image fit thumb"><img src="images/thumbs/18.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/19.jpg" class="image fit thumb"><img src="images/thumbs/19.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/20.jpg" class="image fit thumb"><img src="images/thumbs/20.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <a href="images/fulls/21.jpg" class="image fit thumb"><img src="images/thumbs/21.jpg" alt="" /></a>
+            <!-- <h3></h3>
+								<p></p> -->
+          </article>
+        </div>
+      </section>
+
+      <!-- Three -->
+      <section id="three">
+        <h2>Get In Touch</h2>
+        <p>We have a <strong>#vpx-standalone</strong> channel in the Virtual Pinball Chat Discord Server.</p>
+        <ul class="actions">
+          <li><a href="https://discord.gg/fc5c2Gu2as" class="button">Join Discord</a></li>
+        </ul>
+
+      </section>
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <!-- <ul class="icons" style="display: none">
+          <li>
+            <a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-github"><span class="label">Github</span></a>
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a>
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a>
+          </li>
+        </ul>
+        <ul class="copyright" style="display: none">
+          <li>&copy; Untitled</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul> -->
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
